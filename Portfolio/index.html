@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camara Dabo — Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="images/logo-couleur.png">
+</head>
+<body>
+
+<svg id="bf-main" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <path d="M24 18 C18 10, 6 6, 4 14 C2 20, 10 26, 22 22 Z" fill="#c54375" opacity=".95"/>
+  <path d="M23 22 C16 22, 5 28, 8 34 C11 38, 20 34, 24 26 Z" fill="#e0608a" opacity=".9"/>
+  <path d="M26 18 C32 10, 44 6, 46 14 C48 20, 40 26, 28 22 Z" fill="#c54375" opacity=".95"/>
+  <path d="M27 22 C34 22, 45 28, 42 34 C39 38, 30 34, 26 26 Z" fill="#e0608a" opacity=".9"/>
+  <ellipse cx="25" cy="21" rx="1.8" ry="10" fill="#3f0121"/>
+  <circle cx="25" cy="11" r="2" fill="#3f0121"/>
+</svg>
+
+<nav id="nav" class="dark">
+  <a href="#hero" class="logo">
+    <img src="images/logo-blanc.png" id="nav-logo" alt="Logo Dabo" style="height: 40px;">
+  </a>
+  <ul id="nav-menu">
+    <button class="menu-close" id="menu-close">✕</button>
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="CV-Camara-Dabo.pdf" target="_blank">Cv</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="burger" id="burger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<section id="hero" data-theme="dark">
+  <div class="hero-text">
+    <p class="hero-firstname fade d1">Camara</p>
+    <h1 class="hero-name fade d2">Dabo</h1>
+  </div>
+  <div class="hero-photo fade d3">
+    <div class="photo-wrap">
+      <img src="images/dabo.png" alt="Camara Dabo" class="photo-main">
+    </div>
+  </div>
+</section>
+
+<section id="about" data-theme="light">
+  <h2 class="section-title-gv fade">Qui suis-je</h2>
+  <div class="about-body">
+    <p class="fade d1">
+      Je m'appelle <strong>Camara Dabo</strong>, étudiante en deuxième année de <strong>BUT MMI</strong> spécialisée en <strong>Création Numérique</strong>. 
+    </p>
+
+    <p class="fade d2">
+      <strong>Design. Com. Dév ?</strong><br>
+      Je ne choisis pas entre ces disciplines : <strong>je les fusionne.</strong>
+    </p>
+
+    <p class="fade d3">
+      Je vois chaque projet comme un terrain d'expérimentation. Mon objectif ? Traduire vos concepts abstraits en réalités concrètes.
+    </p>
+
+    <div class="citation-wrap fade d4">
+      <div class="citation-label">Ma devise</div>
+      <div class="citation-block">
+        <p>" Comme un battement d'ailes. "</p>
+        <span class="citation-author">
+           <img src="images/logo-prune.png" alt="Logo" style="height: 25px; float: right; margin-top: 10px;">
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" data-theme="dark">
+  <h2 class="section-title-gv fade">Compétences</h2>
+  <div class="sw-grid">
+    <div class="sw-card fade d1"><div class="sw-ico ps">Ps</div><span class="sw-name">Photoshop</span></div>
+    <div class="sw-card fade d2"><div class="sw-ico ai">Ai</div><span class="sw-name">Illustrator</span></div>
+    <div class="sw-card fade d3"><div class="sw-ico id">Id</div><span class="sw-name">InDesign</span></div>
+    <div class="sw-card fade d4"><div class="sw-ico dv">Dv</div><span class="sw-name">DaVinci</span></div>
+    <div class="sw-card fade d5"><div class="sw-ico ae">Ae</div><span class="sw-name">After Effects</span></div>
+    <div class="sw-card fade d6"><div class="sw-ico fig">Fig</div><span class="sw-name">Figma</span></div>
+  </div>
+</section>
+
+<!-- ══ PROJECTS — CRÈME ══ -->
+<section id="projects" data-theme="light">
+  <h2 class="section-title-gv fade">Mes Projets</h2>
+  <div class="proj-grid">
+
+    <a href="projets/louvre.html" class="proj-card-link fade d1">
+      <div class="proj-card">
+        <img src="images/Louvre.jpg" alt="The Louvre" onerror="this.style.display='none'">
+        <div class="proj-overlay">
+          <span class="proj-tag">Design Graphique</span>
+          <div class="proj-name">The Louvre</div>
+          <p class="proj-desc">Affiche architecturale du Musée du Louvre.</p>
+          <span class="proj-cta">Voir le projet →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="projets/btf.html" class="proj-card-link fade d2">
+      <div class="proj-card">
+        <img src="images/butterflycosmt.png" alt="Butterfly Cosmetics" onerror="this.style.display='none'">
+        <div class="proj-overlay">
+          <span class="proj-tag">Branding</span>
+          <div class="proj-name">Butterfly Cosmetics</div>
+          <p class="proj-desc">Branding de ma marque Butterfly Cosmetics.</p>
+          <span class="proj-cta">Voir le projet →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="projets/motion-data.html" class="proj-card-link fade d3">
+      <div class="proj-card">
+        <img src="images/miniatureFL.png" alt="Motion Design" onerror="this.style.display='none'">
+        <div class="proj-overlay">
+          <span class="proj-tag">Motion design</span>
+          <div class="proj-name">Les fruits et légumes en scène</div>
+          <p class="proj-desc">Data-visualisation d'un jeu de données en motion design.</p>
+          <span class="proj-cta">Voir le projet →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="projets/toitdetoiles.html" class="proj-card-link fade d4">
+      <div class="proj-card">
+        <img src="images/toitdetoiles.png" alt="Toit d'étoiles" onerror="this.style.display='none'">
+        <div class="proj-overlay">
+          <span class="proj-tag">Design d'interface</span>
+          <div class="proj-name">Toit d'étoiles</div>
+          <p class="proj-desc">Maquette web pour un site d'une agence immobilière fictive.</p>
+          <span class="proj-cta">Voir le projet →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="projets/valentino.html" class="proj-card-link fade d5">
+      <div class="proj-card">
+        <img src="images/valentino.jpg" alt="Valentino" onerror="this.style.display='none'">
+        <div class="proj-overlay">
+          <span class="proj-tag">Design graphique</span>
+          <div class="proj-name">Valentino - Donna</div>
+          <p class="proj-desc">Flyer promotionnel pour l'eau de parfum Donna.</p>
+          <span class="proj-cta">Voir le projet →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="projets/formulebd.html" class="proj-card-link fade d6">
+      <div class="proj-card">
+        <img src="images/formulebd.png" alt="Formule Bédé" onerror="this.style.display='none'">
+        <div class="proj-overlay">
+          <span class="proj-tag">Design éditorial</span>
+          <div class="proj-name">Formule Bédé 10</div>
+          <p class="proj-desc">Programme du festival Formule Bédé 10 réalisé sur InDesign.</p>
+          <span class="proj-cta">Voir le projet →</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section id="contact" data-theme="dark">
+  <h2 class="section-title-gv fade">Me contacter</h2>
+  <form class="form fade d1" action="https://formspree.io/f/mjgeqdlr" method="POST">
+    <input type="hidden" name="_subject" value="Nouveau message depuis ton portfolio">
+    <div class="form-row">
+      <div class="fg"><label>Prénom *</label><input type="text" name="prénom" placeholder="Votre prénom" required></div>
+      <div class="fg"><label>Nom *</label><input type="text" name="nom" placeholder="Votre nom" required></div>
+    </div>
+    <div class="fg"><label>Email *</label><input type="email" name="email" placeholder="votre@email.com" required></div>
+    <div class="fg"><label>Message *</label><textarea name="message" placeholder="Décrivez votre projet..." required></textarea></div>
+    <button type="submit" class="form-btn">Envoyer le message</button>
+  </form>
+</section>
+
+<footer>
+  <div class="footer-left">
+     <img src="images/logo-blanc.png" alt="Logo Dabo" style="height: 40px;">
+  </div>
+  <div class="footer-center">
+    <a href="mailto:camara.dabo@email.com" class="fmail">dabo.cmr13@gmail.com</a>
+    <div class="fcopy">© 2026 Camara Dabo - Tous droits réservés</div>
+  </div>
+  <div class="footer-right">
+    <div class="fsocials">
+      <a href="https://www.linkedin.com/in/dabo-camara/" class="soc">IN</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/index.js"></script></body>
+</html>
